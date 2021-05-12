@@ -233,33 +233,33 @@ public class Egg_Minigame : MonoBehaviour
     {
         Keyframe[] TickKeys = new Keyframe[]
         {
-            new Keyframe(0f,0.7f),
-            new Keyframe(0.1f,0.65f),
-            new Keyframe(0.2f,0.60f),
-            new Keyframe(0.3f,0.59f),
-            new Keyframe(0.4f,0.58f),
-            new Keyframe(0.5f,0.57f),
-            new Keyframe(0.6f,0.56f),
-            new Keyframe(0.7f,0.55f),
-            new Keyframe(0.8f,0.53f),
-            new Keyframe(0.9f,0.51f),
-            new Keyframe(1f,0.50f)
+            new Keyframe(0f,0.63f),
+            new Keyframe(0.1f,0.59f),
+            new Keyframe(0.2f,0.55f),
+            new Keyframe(0.3f,0.51f),
+            new Keyframe(0.4f,0.48f),
+            new Keyframe(0.5f,0.46f),
+            new Keyframe(0.6f,0.43f),
+            new Keyframe(0.7f,0.40f),
+           new Keyframe(0.8f,0.36f),
+            new Keyframe(0.9f,0.34f),
+            new Keyframe(1f,0.32f)
         };
         Tick.keys = TickKeys;
 
         Keyframe[] SpawnKeys = new Keyframe[]
         {
-            new Keyframe(0f,3.5f),
-            new Keyframe(0.1f,1.5f),
-            new Keyframe(0.2f,1.4f),
-            new Keyframe(0.3f,1.3f),
-            new Keyframe(0.4f,1.2f),
-            new Keyframe(0.5f,1.1f),
-            new Keyframe(0.6f,1f),
-            new Keyframe(0.7f,0.9f),
-            new Keyframe(0.8f,0.85f),
-            new Keyframe(0.9f,0.75f),
-            new Keyframe(1f,0.6f)
+            new Keyframe(0f,1.86f),
+            new Keyframe(0.1f,1.61f),
+            new Keyframe(0.2f,1.36f),
+            new Keyframe(0.3f,1.11f),
+            new Keyframe(0.4f,0.86f),
+            new Keyframe(0.5f,0.83f),
+            new Keyframe(0.6f,0.75f),
+            new Keyframe(0.7f,0.67f),
+            new Keyframe(0.8f,0.59f),
+            new Keyframe(0.9f,0.5f),
+            new Keyframe(1f,0.42f)
         };
         Spawn.keys = SpawnKeys;
     }

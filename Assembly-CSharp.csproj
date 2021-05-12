@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\rabbitBehaviour.cs" />
+    <Compile Include="Assets\Scripts\ExitScript.cs" />
     <Compile Include="Assets\Scripts\EggContainer.cs" />
     <Compile Include="Assets\Scripts\Egg_Minigame.cs" />
     <Compile Include="Assets\Scripts\EggBrokeAnimation.cs" />
@@ -64,7 +65,6 @@
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Controls\MainControls.cs" />
     <Compile Include="Assets\Scripts\ChickenBehaviour.cs" />
-    <Compile Include="Assets\Scripts\ExitScript.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
